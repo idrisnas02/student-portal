@@ -1,0 +1,35 @@
+
+#heading{
+    text-align: center;
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    position: relative;
+    width: 16rem;
+    height: 16rem;
+    border: .1rem solid lightgray;
+    margin: 1.5em;
+}
+.content{
+    padding: 1rem;
+}
+.star{
+    color: antiquewhite;
+}
+.ethical:hover{
+    text-decoration: underline;
+}
+.info p{
+    font-size: 13px;
+}
